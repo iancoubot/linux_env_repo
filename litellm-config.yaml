@@ -1,0 +1,41 @@
+general_settings:
+  master_key: sk-iannick-m2-secret
+  host: 0.0.0.0            # Allows connections from your Mac/local network
+  port: 7000               # Sets the port to 7000 by default
+  request_timeout: 600
+  disable_spend_logs: true
+
+model_list:
+  # --- CLOUD ORCHESTRATOR ---
+  - model_name: orchestrator
+    litellm_params:
+      model: anthropic/claude-3-5-haiku-20241022
+      api_key: os.environ/ANTHROPIC_API_KEY
+
+  - model_name: general-haiku
+    litellm_params:
+      model: anthropic/claude-3-5-haiku-20241022
+      api_key: os.environ/ANTHROPIC_API_KEY
+
+  # --- REMOTE WORKERS (Pointing to the M2 Mac 'ym2') ---
+  - model_name: coder-senior
+    litellm_params:
+      model: ollama_chat/qwen3-coder-next:q4_K_M
+      api_base: http://ym2:11434/v1 # Uses the hostname of your Mac
+      api_key: ollama-placeholder
+
+  - model_name: coder-junior
+    litellm_params:
+      model: ollama_chat/qwen3.5:9b
+      api_base: http://ym2:11434/v1
+      api_key: ollama-placeholder
+
+  - model_name: qa-specialist
+    litellm_params:
+      model: ollama_chat/deepseek-r1:8b
+      api_base: http://ym2:11434/v1
+      api_key: ollama-placeholder
+
+litellm_settings:
+  drop_params: true
+  set_verbose: false
