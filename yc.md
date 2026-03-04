@@ -9,6 +9,8 @@ Pull qwen3.5:35b-moe as a Secondary Specialist. Use this if you are doing fronte
 # YM2 model history
 ## qwen3-coder-next:q4_K_M    ca06e9e4087c    55 GB    54%/46% CPU/GPU    32768      4 minutes from now
 Could not get it to work, way to slow, killing desktop experience
+2026-03-04
+deepseek-reasoner rejected as QA (on one task failure)
 
 
 
@@ -28,12 +30,14 @@ claude --resume cf710121-a3e0-4382-b89f-e117fe3ef592
 /home/iannick/projects/oc_trading_rs/trading_rs/app_backtest/directives/004-first_backtest.md
 
 /home/iannick/projects/oc_trading_rs/trading_rs/project.md
-/home/iannick/global_ai/general.md
-/home/iannick/global_ai/layers-strategy.md
+/home/iannick/global_ai/linux_env_repo/general.md
+/home/iannick/global_ai/linux_env_repo/layers-strategy.md
 /home/iannick/projects/oc_trading_rs/trading_rs/app_plan/directives/005-trades-viewer.md
-/home/iannick/global_ai/eop.md
+/home/iannick/global_ai/linux_env_repo/eop.md
 
 
 ## quick commands
 for all (except /home/iannick/.openclaw/agents/main/agent/auth-profiles.json) auth-files in /home/iannick/.openclaw/agents
 copy /home/iannick/.openclaw/agents/main/agent/auth-profiles.json over the agent's auth-profile.json
+
+sk-168eb56b3fac4ccd8346244ae530f0e6
