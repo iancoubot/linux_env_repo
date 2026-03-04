@@ -6,6 +6,11 @@ based on Gemini's answers.
 Keep qwen3-coder-next:q4_K_M as your Primary Worker. It is the most reliable model for writing to your file system and running npm or python commands without hallucinating the syntax.
 Pull qwen3.5:35b-moe as a Secondary Specialist. Use this if you are doing frontend work. Its native multimodal training makes it much better at understanding how a layout should look.
 
+# YM2 model history
+## qwen3-coder-next:q4_K_M    ca06e9e4087c    55 GB    54%/46% CPU/GPU    32768      4 minutes from now
+Could not get it to work, way to slow, killing desktop experience
+
+
 
 # ymint
 ## litellm
