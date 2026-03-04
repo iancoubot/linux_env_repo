@@ -2,13 +2,13 @@
 
 # Configuration
 PROXY_URL="http://localhost:7000/v1/chat/completions"
-MASTER_KEY="sk-iannick-m2-secret"
+MASTER_KEY="sk-gentilHub"
 
 # 1. Choose the model to test
 echo "Which model do you want to test?"
 echo "1) coder-junior (Qwen 3.5 9B)"
 echo "2) coder-senior (Qwen3-Coder-Next)"
-echo "3) qa-specialist (DeepSeek-R1 8B)"
+echo "3) qa-specialist (DeepSeek-Reasoner)"
 read -p "Enter choice [1-3]: " choice
 
 case $choice in
