@@ -40,4 +40,6 @@ claude --resume cf710121-a3e0-4382-b89f-e117fe3ef592
 for all (except /home/iannick/.openclaw/agents/main/agent/auth-profiles.json) auth-files in /home/iannick/.openclaw/agents
 copy /home/iannick/.openclaw/agents/main/agent/auth-profiles.json over the agent's auth-profile.json
 
-sk-168eb56b3fac4ccd8346244ae530f0e6
+
+
+when a single green bar does not get higher than hod since setup, and more red bars occur after that, it should be considered a leg invalidate setup. atom 02-18 is a no trade scenario before 10h

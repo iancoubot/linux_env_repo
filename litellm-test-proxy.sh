@@ -9,12 +9,14 @@ echo "Which model do you want to test?"
 echo "1) coder-junior (Qwen 3.5 9B)"
 echo "2) coder-senior (Qwen3-Coder-Next)"
 echo "3) qa-specialist (DeepSeek-Reasoner)"
-read -p "Enter choice [1-3]: " choice
+echo "4) general-haiku (Claude Haiku)"
+read -p "Enter choice [1-4]: " choice
 
 case $choice in
     1) MODEL="coder-junior" ;;
     2) MODEL="coder-senior" ;;
     3) MODEL="qa-specialist" ;;
+    4) MODEL="general-haiku" ;;
     *) echo "Invalid choice"; exit 1 ;;
 esac
 
